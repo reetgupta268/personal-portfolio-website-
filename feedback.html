@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Submit feedback about the learning portal and courses">
+    <meta name="author" content="Reet Gupta">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback | Learning Portal</title>
+</head>
+
+<body>
+
+    <!-- Page Header -->
+    <header>
+        <h1>Submit Feedback</h1>
+        <p><strong>Help us improve by sharing your thoughts</strong></p>
+    </header>
+
+    <hr>
+
+    <!-- Navigation Menu -->
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="courses.html">Courses & Resources</a></li>
+            <li><a href="grades.html">Grades</a></li>
+            <li><a href="feedback.html" aria-current="page">Feedback</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <!-- Main Content -->
+    <main>
+
+        <section>
+            <h2>Feedback Form</h2>
+
+            <form action="#" method="post">
+
+                <!-- Name -->
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+                <!-- Email -->
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+                <!-- Course Selection -->
+                <label for="course">Select Course:</label><br>
+                <select id="course" name="course">
+                    <option value="html">HTML for Beginners</option>
+                    <option value="js">JavaScript Basics</option>
+                    <option value="css">CSS Fundamentals</option>
+                    <option value="python">Python Basics</option>
+                </select><br><br>
+
+                <!-- Rating -->
+                <label>Rate Your Learning Experience:</label><br>
+                <input type="radio" id="excellent" name="rating" value="excellent">
+                <label for="excellent">Excellent</label><br>
+                <input type="radio" id="good" name="rating" value="good">
+                <label for="good">Good</label><br>
+                <input type="radio" id="average" name="rating" value="average">
+                <label for="average">Average</label><br>
+                <input type="radio" id="poor" name="rating" value="poor">
+                <label for="poor">Poor</label><br><br>
+
+                <!-- Suggestions -->
+                <label for="message">Your Feedback:</label><br>
+                <textarea id="message" name="message" rows="5" cols="50" placeholder="Write your feedback here..."></textarea><br><br>
+
+                <!-- Submit Button -->
+                <button type="submit">Submit Feedback</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Educational Course Resource Portal</p>
+        <p>Created by Reet Gupta</p>
+    </footer>
+
+</body>
+</html>
